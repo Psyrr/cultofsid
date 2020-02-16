@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<title>The Cult of Sid</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("images/sebusss.jpg")}
+.bgimg2 {background-image: url("images/shanos.jpg")}
+</style>
+
+<body>
+
+<audio controls>
+  <source src="audio/halo.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">The Cult of Sid</h1>
+    <h2>Leader. Accuser. Survivor.</h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Our Saviour</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Vile Rumours & Nay-sayers</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Join Us</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Our Saviour</b></h1>
+    <img class="w3-round w3-grayscale-min" src="images/seader.jpg" style="width:100%;margin:32px 0">
+    <p><i>In the dark times of Raid Shadow Legends, werewolves prowled the streets preying upon the innocent and weak. But then arose our lord and saviour
+	beloved by the masses and eager to deliver us not to desturction but salvation.</i>
+    </p><br>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="nuts">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>All are welcome in his flock...</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-half">
+		<img class="w3-round-large w3-grayscale-min" src="images/shanos.jpg" style="width:80%;margin:64px 0">
+      </div>
+
+      <div class="w3-half">
+		<img class="w3-round-large w3-grayscale-min" src="images/shrek.jpg" style="width:80%;margin:64px 0">
+    </div>
+
+	<p><b>For he is the Sid and Sid is Great...</b></p>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>Vile Rumours & Nay-Sayers</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-half">
+		<img class="w3-round-large w3-grayscale-min" src="images/solf.jpg" style="width:80%;margin:64px 0">
+        <p>Some vile rumours have arisen accusing our prophet of being one of the very beasts he is meant to protect us from!
+		We can assure you this is poppycock of the first order.</p>
+      </div>
+
+      <div class="w3-half">
+		<img class="w3-round-large w3-grayscale-min" src="images/sutin.jpg" style="width:80%;margin:64px 0">
+        <p>Nay-Sayers of Sid's greatness have also described him as a tyrant which couldn't be further from the truth. He is a gentle man with a kind heart</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>We Hope to Welcome You Brother/Sister</h1>
+  <p class="w3-large">May Sid's light shine upon you...</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Join</button>
+  </p>
+</div>
+
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">Join Us</h1>
+      <p>May Sid's light shine upon you...</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Sincerely, The Archpriest of Sid and the people of Raid Shadow Legends</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Come into the Light</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Reject the Saviour</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-hide-small" style="margin-bottom:32px"> 
+<h2> Contact Us - +447480775697 </h2></div>
+
+</body>
+</html>
